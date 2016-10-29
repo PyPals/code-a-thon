@@ -1,0 +1,10 @@
+# Mic2Audio
+
+* Change file paths as necessary
+* Output stored in related ```result_q1```
+
+```pip install speech_recognition
+pip install pyaudio```
+
+System dependencies:
+```portaudio```

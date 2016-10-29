@@ -1,0 +1,8 @@
+# Growth of POS
+
+* Converted given data to json as required
+* Growth of passengers for each POS from 2015 and 2016
+
+Run:
+Change file paths as required
+```python csv2json.py```

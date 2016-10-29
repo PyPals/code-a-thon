@@ -1,0 +1,13 @@
+# Private Forum
+
+Run :
+```
+g++ group_client.cpp -o client
+g++ group_server.cpp -o server
+./server
+./client
+```
+
+Forum will work only for following handles:
+
+```chandler@rossbirthday.com``` ```rachel@rossbirthday.com```

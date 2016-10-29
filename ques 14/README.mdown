@@ -1,0 +1,3 @@
+# Web Scraping
+
+* Output from ```python currencyscrape.py``` is given to Flask template ```curr.html``` and access ```localhost:3000```

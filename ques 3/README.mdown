@@ -1,0 +1,6 @@
+# Audio Tags to Keywords
+
+* Tags and keywords matched by speech recognized previously
+* Change file paths if necessary
+
+```pip install pydub```

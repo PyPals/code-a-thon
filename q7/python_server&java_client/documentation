@@ -1,3 +1,0 @@
-- Client Server Application where Java acts as the client and python the server.
-- Run the code pyserver and the server listens for connections on local host and a suitable port number.
-- The Java code can connect to the server and send and receive back information.

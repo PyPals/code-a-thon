@@ -1,0 +1,8 @@
+# Random Password Generator
+
+* Conforms to Microsoft standards
+* Generates unique password for every username
+* No two passwords generated are the same
+
+Run as:
+```python ques11.py```

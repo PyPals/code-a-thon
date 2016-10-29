@@ -1,0 +1,5 @@
+# Audio2Text
+
+* Change file path as necessary
+
+```pip install pydub```

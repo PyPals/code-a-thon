@@ -6,6 +6,7 @@ from flask import Flask, render_template, redirect, request, jsonify
 url = 'http://www.tradingeconomics.com/currencies'
 
 def scrape():
+    print "Please wait while it scrapes"
     try:
         html = urllib2.urlopen(url).read()
         soup = bs(html, 'html.parser')

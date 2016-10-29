@@ -1,0 +1,28 @@
+<html>
+<head>
+	<script type="text/javascript">
+		var timeleft = 20, pause;
+		var timeDec = function () {
+			timeleft--;
+			document.getElementById("countdown").innerHTML = timeleft;
+			if (timeleft == 0) {
+				document.getElementById("countdown").innerHTML = timeleft;
+				clearInterval(pause);
+				window.location = "/";
+			}
+		};
+		pause = setInterval(timeDec, 1000);
+	</script>
+</head>
+{% block bodycontent %}
+		<h4> Refreshing content in <span id = "countdown">20</span> seconds</h2>
+		{% for item in details %}
+
+				<div>
+					<h3>{{item['title']}} - {{item['rate']}}
+				</div>
+
+		{% endfor %}	
+
+{% endblock %}
+</html>
